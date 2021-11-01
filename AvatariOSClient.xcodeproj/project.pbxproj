@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3101EC992714D4AA002E5256 /* UIImageHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3101EC982714D4AA002E5256 /* UIImageHelper.mm */; };
+		3158941D270F9AD500D6BAAB /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3158941B270F9AD500D6BAAB /* words.txt */; };
+		315F011B26FE73B800D4F595 /* TorchModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 315F011926FE73B800D4F595 /* TorchModule.mm */; };
+		3171899326FFCF3B00C6B726 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171899226FFCF3B00C6B726 /* UIImage+Helper.swift */; };
+		31940300272DEF250057374A /* 2000.ptl in Resources */ = {isa = PBXBuildFile; fileRef = 319402FF272DEEC40057374A /* 2000.ptl */; };
+		B90BA32B24F6A29400D43F47 /* IDLPollingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90BA32A24F6A29400D43F47 /* IDLPollingRequest.swift */; };
+		B90BCE2025133DB80062E8B6 /* DGSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90BCE1F25133DB80062E8B6 /* DGSettingsViewController.swift */; };
+		B90BCE2A2518E5940062E8B6 /* DGSettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90BCE292518E5940062E8B6 /* DGSettingsManager.swift */; };
+		B917A46F256BECBE004123EE /* simd+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917A46E256BECBE004123EE /* simd+extensions.swift */; };
+		B917A470256BECBF004123EE /* simd+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917A46E256BECBE004123EE /* simd+extensions.swift */; };
+		B917A474256BEF58004123EE /* ARCamera+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917A473256BEF58004123EE /* ARCamera+Codable.swift */; };
+		B917A475256BEF58004123EE /* ARCamera+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917A473256BEF58004123EE /* ARCamera+Codable.swift */; };
+		B92593B924BEE4340033F7B4 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92593B724BEE4340033F7B4 /* ARKit.framework */; };
+		B92593BA24BEE4340033F7B4 /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92593B824BEE4340033F7B4 /* RealityKit.framework */; };
+		B928639624AE16360026DC8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B928639524AE16360026DC8C /* AppDelegate.swift */; };
+		B928639824AE16360026DC8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B928639724AE16360026DC8C /* SceneDelegate.swift */; };
+		B928639A24AE16360026DC8C /* LidarSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B928639924AE16360026DC8C /* LidarSessionViewController.swift */; };
+		B928639D24AE16360026DC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B928639B24AE16360026DC8C /* Main.storyboard */; };
+		B928639F24AE16380026DC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B928639E24AE16380026DC8C /* Assets.xcassets */; };
+		B92863A224AE16380026DC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92863A024AE16380026DC8C /* LaunchScreen.storyboard */; };
+		B92863C624AE1A1B0026DC8C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92863C524AE1A1B0026DC8C /* RoundedButton.swift */; };
+		B92D976424C1E8E2007AE546 /* CVPixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D976324C1E8E2007AE546 /* CVPixelBuffer+Extension.swift */; };
+		B92D976524C1E8E2007AE546 /* CVPixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D976324C1E8E2007AE546 /* CVPixelBuffer+Extension.swift */; };
+		B92D976624C1E8E2007AE546 /* CVPixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D976324C1E8E2007AE546 /* CVPixelBuffer+Extension.swift */; };
+		B934389F24EE699A007092C2 /* IDLImageConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934389E24EE699A007092C2 /* IDLImageConverter.swift */; };
+		B957A1282525C5F500C56E1B /* IDLVerticalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957A1272525C5F500C56E1B /* IDLVerticalSlider.swift */; };
+		B95B08DF24F9508300CAF10B /* DGSketchfabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B08DE24F9508300CAF10B /* DGSketchfabModel.swift */; };
+		B95B08E124FFAE3500CAF10B /* IDLDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B08E024FFAE3500CAF10B /* IDLDevice.swift */; };
+		B95B08E72508F04100CAF10B /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B08E62508F04100CAF10B /* SessionsViewController.swift */; };
+		B95B08E92508F18700CAF10B /* SessionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B08E82508F18700CAF10B /* SessionDetailsViewController.swift */; };
+		B95C062A2580B3FB0045F402 /* IDLARDumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95C06292580B3FB0045F402 /* IDLARDumper.swift */; };
+		B96E742F24F3A6FF00D75935 /* DGCamCalibraion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E742E24F3A6FF00D75935 /* DGCamCalibraion.swift */; };
+		B981911624F3C8DD001F3EEC /* DGConfigurationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981911524F3C8DD001F3EEC /* DGConfigurationModel.swift */; };
+		B981911824F3DE45001F3EEC /* DGSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981911724F3DE45001F3EEC /* DGSessionManager.swift */; };
+		B987F8EB25500757003FBB22 /* TrueDepthSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987F8EA25500757003FBB22 /* TrueDepthSessionViewController.swift */; };
+		B987F8EF255007D5003FBB22 /* BaseSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987F8EE255007D5003FBB22 /* BaseSessionViewController.swift */; };
+		B98EB5ED24B5AB6600086293 /* AvatariOSClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B98EB5EB24B5AB6600086293 /* AvatariOSClient.xcdatamodeld */; };
+		B98EB5EE24B5AB6600086293 /* AvatariOSClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B98EB5EB24B5AB6600086293 /* AvatariOSClient.xcdatamodeld */; };
+		B98EB5EF24B5AB6600086293 /* AvatariOSClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B98EB5EB24B5AB6600086293 /* AvatariOSClient.xcdatamodeld */; };
+		B9A5D89024C1791000EF6927 /* IDLARPreProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5D88F24C1791000EF6927 /* IDLARPreProcessing.swift */; };
+		B9A5D89124C1791000EF6927 /* IDLARPreProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5D88F24C1791000EF6927 /* IDLARPreProcessing.swift */; };
+		B9A5D89224C1791000EF6927 /* IDLARPreProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5D88F24C1791000EF6927 /* IDLARPreProcessing.swift */; };
+		B9A89581256279C9000C5C26 /* plycpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9A8957F256279C9000C5C26 /* plycpp.cpp */; };
+		B9A89582256279C9000C5C26 /* plycpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9A8957F256279C9000C5C26 /* plycpp.cpp */; };
+		B9A8959A25641C95000C5C26 /* ARMeshGeometry+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8959925641C95000C5C26 /* ARMeshGeometry+Extension.swift */; };
+		B9A8959B25641C95000C5C26 /* ARMeshGeometry+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8959925641C95000C5C26 /* ARMeshGeometry+Extension.swift */; };
+		B9A8959F2565074E000C5C26 /* SCNGeometry+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8959E2565074E000C5C26 /* SCNGeometry+Extension.swift */; };
+		B9A895A02565074E000C5C26 /* SCNGeometry+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8959E2565074E000C5C26 /* SCNGeometry+Extension.swift */; };
+		B9A895A62565510F000C5C26 /* ARMeshGeometry+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A895A52565510F000C5C26 /* ARMeshGeometry+Extension.m */; };
+		B9A895A72565510F000C5C26 /* ARMeshGeometry+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A895A52565510F000C5C26 /* ARMeshGeometry+Extension.m */; };
+		B9A895E425665DBD000C5C26 /* IDLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A895E325665DBD000C5C26 /* IDLObject.m */; };
+		B9A895E525665DBD000C5C26 /* IDLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A895E325665DBD000C5C26 /* IDLObject.m */; };
+		B9A895ED25665DE3000C5C26 /* IDLPLYAsset.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9A895EB25665DE3000C5C26 /* IDLPLYAsset.mm */; };
+		B9A895EE25665DE3000C5C26 /* IDLPLYAsset.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9A895EB25665DE3000C5C26 /* IDLPLYAsset.mm */; };
+		B9A8967E2567035F000C5C26 /* Colorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8967D2567035F000C5C26 /* Colorizer.swift */; };
+		B9D52888258A424B0055A37A /* CMRotationMatrix+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D52887258A424B0055A37A /* CMRotationMatrix+Codable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B92863A924AE16380026DC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B928638A24AE16360026DC8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B928639124AE16360026DC8C;
+			remoteInfo = DepthGrabber;
+		};
+		B92863B424AE16380026DC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B928638A24AE16360026DC8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B928639124AE16360026DC8C;
+			remoteInfo = DepthGrabber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9CD8CD525472D3A00295DCA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3101EC972714D4A9002E5256 /* UIImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageHelper.h; sourceTree = "<group>"; };
+		3101EC982714D4AA002E5256 /* UIImageHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageHelper.mm; sourceTree = "<group>"; };
+		3158941B270F9AD500D6BAAB /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		315F011926FE73B800D4F595 /* TorchModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TorchModule.mm; path = TorchBridge/TorchModule.mm; sourceTree = SOURCE_ROOT; };
+		315F011A26FE73B800D4F595 /* TorchModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TorchModule.h; path = TorchBridge/TorchModule.h; sourceTree = SOURCE_ROOT; };
+		3171899226FFCF3B00C6B726 /* UIImage+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Helper.swift"; sourceTree = "<group>"; };
+		3171899426FFD26200C6B726 /* AvatariOSClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvatariOSClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		319402FF272DEEC40057374A /* 2000.ptl */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2000.ptl; path = AvatariOSClient/2000.ptl; sourceTree = "<group>"; };
+		6B1BCCBE108F96349A7B6481 /* Pods-AvatariOSClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatariOSClient.debug.xcconfig"; path = "Target Support Files/Pods-AvatariOSClient/Pods-AvatariOSClient.debug.xcconfig"; sourceTree = "<group>"; };
+		B90BA32A24F6A29400D43F47 /* IDLPollingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDLPollingRequest.swift; sourceTree = "<group>"; };
+		B90BA32C24F78EBA00D43F47 /* Session+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B90BA32D24F78EBA00D43F47 /* Session+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B90BCE1F25133DB80062E8B6 /* DGSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGSettingsViewController.swift; sourceTree = "<group>"; };
+		B90BCE292518E5940062E8B6 /* DGSettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGSettingsManager.swift; sourceTree = "<group>"; };
+		B917A46E256BECBE004123EE /* simd+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "simd+extensions.swift"; sourceTree = "<group>"; };
+		B917A473256BEF58004123EE /* ARCamera+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARCamera+Codable.swift"; sourceTree = "<group>"; };
+		B92593B724BEE4340033F7B4 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		B92593B824BEE4340033F7B4 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
+		B928639224AE16360026DC8C /* AvatariOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatariOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B928639524AE16360026DC8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B928639724AE16360026DC8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B928639924AE16360026DC8C /* LidarSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidarSessionViewController.swift; sourceTree = "<group>"; };
+		B928639C24AE16360026DC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B928639E24AE16380026DC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B92863A124AE16380026DC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B92863A324AE16380026DC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92863A824AE16380026DC8C /* AvatariOSClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatariOSClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92863B324AE16380026DC8C /* AvatariOSClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatariOSClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92863C524AE1A1B0026DC8C /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		B92D976324C1E8E2007AE546 /* CVPixelBuffer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Extension.swift"; sourceTree = "<group>"; };
+		B934389E24EE699A007092C2 /* IDLImageConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDLImageConverter.swift; sourceTree = "<group>"; };
+		B957A1272525C5F500C56E1B /* IDLVerticalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDLVerticalSlider.swift; sourceTree = "<group>"; };
+		B95B08DE24F9508300CAF10B /* DGSketchfabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGSketchfabModel.swift; sourceTree = "<group>"; };
+		B95B08E024FFAE3500CAF10B /* IDLDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDLDevice.swift; sourceTree = "<group>"; };
+		B95B08E62508F04100CAF10B /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		B95B08E82508F18700CAF10B /* SessionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailsViewController.swift; sourceTree = "<group>"; };
+		B95C06292580B3FB0045F402 /* IDLARDumper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDLARDumper.swift; sourceTree = "<group>"; };
+		B96E742E24F3A6FF00D75935 /* DGCamCalibraion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGCamCalibraion.swift; sourceTree = "<group>"; };
+		B981911524F3C8DD001F3EEC /* DGConfigurationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGConfigurationModel.swift; sourceTree = "<group>"; };
+		B981911724F3DE45001F3EEC /* DGSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGSessionManager.swift; sourceTree = "<group>"; };
+		B987F8EA25500757003FBB22 /* TrueDepthSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueDepthSessionViewController.swift; sourceTree = "<group>"; };
+		B987F8EE255007D5003FBB22 /* BaseSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSessionViewController.swift; sourceTree = "<group>"; };
+		B98EB5EC24B5AB6600086293 /* DepthGrabber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DepthGrabber.xcdatamodel; sourceTree = "<group>"; };
+		B9A5D88F24C1791000EF6927 /* IDLARPreProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDLARPreProcessing.swift; sourceTree = "<group>"; };
+		B9A5D8A224C184BF00EF6927 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B9A5D8A424C184C700EF6927 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B9A8957F256279C9000C5C26 /* plycpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plycpp.cpp; sourceTree = "<group>"; };
+		B9A89580256279C9000C5C26 /* plycpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plycpp.h; sourceTree = "<group>"; };
+		B9A8959925641C95000C5C26 /* ARMeshGeometry+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARMeshGeometry+Extension.swift"; sourceTree = "<group>"; };
+		B9A8959E2565074E000C5C26 /* SCNGeometry+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNGeometry+Extension.swift"; sourceTree = "<group>"; };
+		B9A895A42565510F000C5C26 /* ARMeshGeometry+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARMeshGeometry+Extension.h"; sourceTree = "<group>"; };
+		B9A895A52565510F000C5C26 /* ARMeshGeometry+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ARMeshGeometry+Extension.m"; sourceTree = "<group>"; };
+		B9A895E225665DBD000C5C26 /* IDLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDLObject.h; sourceTree = "<group>"; };
+		B9A895E325665DBD000C5C26 /* IDLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDLObject.m; sourceTree = "<group>"; };
+		B9A895EB25665DE3000C5C26 /* IDLPLYAsset.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDLPLYAsset.mm; sourceTree = "<group>"; };
+		B9A895EC25665DE3000C5C26 /* IDLPLYAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDLPLYAsset.h; sourceTree = "<group>"; };
+		B9A8967D2567035F000C5C26 /* Colorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorizer.swift; sourceTree = "<group>"; };
+		B9D52887258A424B0055A37A /* CMRotationMatrix+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMRotationMatrix+Codable.swift"; sourceTree = "<group>"; };
+		CC015B4AF67098C121CD78D8 /* libPods-AvatariOSClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AvatariOSClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F046E9C3F50A7A6DBB313C /* Pods-AvatariOSClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatariOSClient.release.xcconfig"; path = "Target Support Files/Pods-AvatariOSClient/Pods-AvatariOSClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B928638F24AE16360026DC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92593BA24BEE4340033F7B4 /* RealityKit.framework in Frameworks */,
+				B92593B924BEE4340033F7B4 /* ARKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92863A524AE16380026DC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92863B024AE16380026DC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85E10A31DEBCE8893DB6E20B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B1BCCBE108F96349A7B6481 /* Pods-AvatariOSClient.debug.xcconfig */,
+				E2F046E9C3F50A7A6DBB313C /* Pods-AvatariOSClient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B90BCE2D2518E5A00062E8B6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B981911724F3DE45001F3EEC /* DGSessionManager.swift */,
+				B90BCE292518E5940062E8B6 /* DGSettingsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B92593B624BEE4340033F7B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9A5D8A424C184C700EF6927 /* AssetsLibrary.framework */,
+				B9A5D8A224C184BF00EF6927 /* CoreVideo.framework */,
+				B92593B724BEE4340033F7B4 /* ARKit.framework */,
+				B92593B824BEE4340033F7B4 /* RealityKit.framework */,
+				CC015B4AF67098C121CD78D8 /* libPods-AvatariOSClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B928638924AE16360026DC8C = {
+			isa = PBXGroup;
+			children = (
+				319402FF272DEEC40057374A /* 2000.ptl */,
+				B928639424AE16360026DC8C /* AvatariOSClient */,
+				B928639324AE16360026DC8C /* Products */,
+				B92593B624BEE4340033F7B4 /* Frameworks */,
+				85E10A31DEBCE8893DB6E20B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B928639324AE16360026DC8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B928639224AE16360026DC8C /* AvatariOSClient.app */,
+				B92863A824AE16380026DC8C /* AvatariOSClientTests.xctest */,
+				B92863B324AE16380026DC8C /* AvatariOSClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B928639424AE16360026DC8C /* AvatariOSClient */ = {
+			isa = PBXGroup;
+			children = (
+				3158941B270F9AD500D6BAAB /* words.txt */,
+				B92D976124C1E8AD007AE546 /* Classes */,
+				B9A5D89324C1832700EF6927 /* ThirdParty */,
+				B9A5D88D24C1766300EF6927 /* Processing */,
+				B98EB5F824B5AC6800086293 /* Models */,
+				B928639524AE16360026DC8C /* AppDelegate.swift */,
+				3101EC972714D4A9002E5256 /* UIImageHelper.h */,
+				3101EC982714D4AA002E5256 /* UIImageHelper.mm */,
+				3171899226FFCF3B00C6B726 /* UIImage+Helper.swift */,
+				B928639724AE16360026DC8C /* SceneDelegate.swift */,
+				3171899426FFD26200C6B726 /* AvatariOSClient-Bridging-Header.h */,
+				B928639B24AE16360026DC8C /* Main.storyboard */,
+				B928639E24AE16380026DC8C /* Assets.xcassets */,
+				B92863A024AE16380026DC8C /* LaunchScreen.storyboard */,
+				B92863A324AE16380026DC8C /* Info.plist */,
+				B98EB5EB24B5AB6600086293 /* AvatariOSClient.xcdatamodeld */,
+			);
+			path = AvatariOSClient;
+			sourceTree = "<group>";
+		};
+		B92D976124C1E8AD007AE546 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B9A895EA25665DE3000C5C26 /* FileFormats */,
+				B90BCE2D2518E5A00062E8B6 /* Managers */,
+				B95B08E52508F01300CAF10B /* Controllers */,
+				B95B08E424FFE45800CAF10B /* UIElements */,
+				B92D976224C1E8B8007AE546 /* Extensions */,
+				B95C06292580B3FB0045F402 /* IDLARDumper.swift */,
+				B9A895E225665DBD000C5C26 /* IDLObject.h */,
+				B9A895E325665DBD000C5C26 /* IDLObject.m */,
+				B934389E24EE699A007092C2 /* IDLImageConverter.swift */,
+				B90BA32A24F6A29400D43F47 /* IDLPollingRequest.swift */,
+				B95B08E024FFAE3500CAF10B /* IDLDevice.swift */,
+				B9A8967D2567035F000C5C26 /* Colorizer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B92D976224C1E8B8007AE546 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B92D976324C1E8E2007AE546 /* CVPixelBuffer+Extension.swift */,
+				B9A8959925641C95000C5C26 /* ARMeshGeometry+Extension.swift */,
+				B9A8959E2565074E000C5C26 /* SCNGeometry+Extension.swift */,
+				B9A895A42565510F000C5C26 /* ARMeshGeometry+Extension.h */,
+				B9A895A52565510F000C5C26 /* ARMeshGeometry+Extension.m */,
+				B917A46E256BECBE004123EE /* simd+extensions.swift */,
+				B917A473256BEF58004123EE /* ARCamera+Codable.swift */,
+				B9D52887258A424B0055A37A /* CMRotationMatrix+Codable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B95B08E424FFE45800CAF10B /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				B92863C524AE1A1B0026DC8C /* RoundedButton.swift */,
+				B957A1272525C5F500C56E1B /* IDLVerticalSlider.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		B95B08E52508F01300CAF10B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B95B08E62508F04100CAF10B /* SessionsViewController.swift */,
+				B95B08E82508F18700CAF10B /* SessionDetailsViewController.swift */,
+				B928639924AE16360026DC8C /* LidarSessionViewController.swift */,
+				B90BCE1F25133DB80062E8B6 /* DGSettingsViewController.swift */,
+				B987F8EA25500757003FBB22 /* TrueDepthSessionViewController.swift */,
+				B987F8EE255007D5003FBB22 /* BaseSessionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B98EB5F824B5AC6800086293 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B90BA32C24F78EBA00D43F47 /* Session+CoreDataClass.swift */,
+				B90BA32D24F78EBA00D43F47 /* Session+CoreDataProperties.swift */,
+				B96E742E24F3A6FF00D75935 /* DGCamCalibraion.swift */,
+				B981911524F3C8DD001F3EEC /* DGConfigurationModel.swift */,
+				B95B08DE24F9508300CAF10B /* DGSketchfabModel.swift */,
+				315F011A26FE73B800D4F595 /* TorchModule.h */,
+				315F011926FE73B800D4F595 /* TorchModule.mm */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B9A5D88D24C1766300EF6927 /* Processing */ = {
+			isa = PBXGroup;
+			children = (
+				B9A5D88E24C1767700EF6927 /* PreProcessing */,
+			);
+			path = Processing;
+			sourceTree = "<group>";
+		};
+		B9A5D88E24C1767700EF6927 /* PreProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				B9A5D88F24C1791000EF6927 /* IDLARPreProcessing.swift */,
+			);
+			path = PreProcessing;
+			sourceTree = "<group>";
+		};
+		B9A5D89324C1832700EF6927 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				B9A8957E256279C9000C5C26 /* plycpp */,
+				B9A5D89424C1833300EF6927 /* OpenCV */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		B9A5D89424C1833300EF6927 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		B9A8957E256279C9000C5C26 /* plycpp */ = {
+			isa = PBXGroup;
+			children = (
+				B9A8957F256279C9000C5C26 /* plycpp.cpp */,
+				B9A89580256279C9000C5C26 /* plycpp.h */,
+			);
+			path = plycpp;
+			sourceTree = "<group>";
+		};
+		B9A895EA25665DE3000C5C26 /* FileFormats */ = {
+			isa = PBXGroup;
+			children = (
+				B9A895EC25665DE3000C5C26 /* IDLPLYAsset.h */,
+				B9A895EB25665DE3000C5C26 /* IDLPLYAsset.mm */,
+			);
+			path = FileFormats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B928639124AE16360026DC8C /* AvatariOSClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92863BC24AE16380026DC8C /* Build configuration list for PBXNativeTarget "AvatariOSClient" */;
+			buildPhases = (
+				E9B72FD4DC9E93AB7ADA2C71 /* [CP] Check Pods Manifest.lock */,
+				B928638E24AE16360026DC8C /* Sources */,
+				B928638F24AE16360026DC8C /* Frameworks */,
+				B928639024AE16360026DC8C /* Resources */,
+				B94F6A442547123B005C2E91 /* ShellScript */,
+				B9CD8CD525472D3A00295DCA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvatariOSClient;
+			productName = DepthGrabber;
+			productReference = B928639224AE16360026DC8C /* AvatariOSClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B92863A724AE16380026DC8C /* AvatariOSClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92863BF24AE16380026DC8C /* Build configuration list for PBXNativeTarget "AvatariOSClientTests" */;
+			buildPhases = (
+				B92863A424AE16380026DC8C /* Sources */,
+				B92863A524AE16380026DC8C /* Frameworks */,
+				B92863A624AE16380026DC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B92863AA24AE16380026DC8C /* PBXTargetDependency */,
+			);
+			name = AvatariOSClientTests;
+			productName = DepthGrabberTests;
+			productReference = B92863A824AE16380026DC8C /* AvatariOSClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B92863B224AE16380026DC8C /* AvatariOSClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92863C224AE16380026DC8C /* Build configuration list for PBXNativeTarget "AvatariOSClientUITests" */;
+			buildPhases = (
+				B92863AF24AE16380026DC8C /* Sources */,
+				B92863B024AE16380026DC8C /* Frameworks */,
+				B92863B124AE16380026DC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B92863B524AE16380026DC8C /* PBXTargetDependency */,
+			);
+			name = AvatariOSClientUITests;
+			productName = DepthGrabberUITests;
+			productReference = B92863B324AE16380026DC8C /* AvatariOSClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B928638A24AE16360026DC8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "InData Labs Ltd";
+				TargetAttributes = {
+					B928639124AE16360026DC8C = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					B92863A724AE16380026DC8C = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+						TestTargetID = B928639124AE16360026DC8C;
+					};
+					B92863B224AE16380026DC8C = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+						TestTargetID = B928639124AE16360026DC8C;
+					};
+				};
+			};
+			buildConfigurationList = B928638D24AE16360026DC8C /* Build configuration list for PBXProject "AvatariOSClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B928638924AE16360026DC8C;
+			productRefGroup = B928639324AE16360026DC8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B928639124AE16360026DC8C /* AvatariOSClient */,
+				B92863A724AE16380026DC8C /* AvatariOSClientTests */,
+				B92863B224AE16380026DC8C /* AvatariOSClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B928639024AE16360026DC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31940300272DEF250057374A /* 2000.ptl in Resources */,
+				B92863A224AE16380026DC8C /* LaunchScreen.storyboard in Resources */,
+				B928639F24AE16380026DC8C /* Assets.xcassets in Resources */,
+				B928639D24AE16360026DC8C /* Main.storyboard in Resources */,
+				3158941D270F9AD500D6BAAB /* words.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92863A624AE16380026DC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92863B124AE16380026DC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B94F6A442547123B005C2E91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name 'CocoaAsyncSocket*.framework' -type d | while read -r\nFRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n    echo \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o\n\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create\n\"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n";
+		};
+		E9B72FD4DC9E93AB7ADA2C71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvatariOSClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B928638E24AE16360026DC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B957A1282525C5F500C56E1B /* IDLVerticalSlider.swift in Sources */,
+				B95B08E72508F04100CAF10B /* SessionsViewController.swift in Sources */,
+				315F011B26FE73B800D4F595 /* TorchModule.mm in Sources */,
+				B917A474256BEF58004123EE /* ARCamera+Codable.swift in Sources */,
+				B96E742F24F3A6FF00D75935 /* DGCamCalibraion.swift in Sources */,
+				B928639A24AE16360026DC8C /* LidarSessionViewController.swift in Sources */,
+				B95C062A2580B3FB0045F402 /* IDLARDumper.swift in Sources */,
+				B9A5D89024C1791000EF6927 /* IDLARPreProcessing.swift in Sources */,
+				B981911824F3DE45001F3EEC /* DGSessionManager.swift in Sources */,
+				B981911624F3C8DD001F3EEC /* DGConfigurationModel.swift in Sources */,
+				B95B08E92508F18700CAF10B /* SessionDetailsViewController.swift in Sources */,
+				3171899326FFCF3B00C6B726 /* UIImage+Helper.swift in Sources */,
+				B987F8EF255007D5003FBB22 /* BaseSessionViewController.swift in Sources */,
+				B98EB5ED24B5AB6600086293 /* AvatariOSClient.xcdatamodeld in Sources */,
+				B92D976424C1E8E2007AE546 /* CVPixelBuffer+Extension.swift in Sources */,
+				B9A8959F2565074E000C5C26 /* SCNGeometry+Extension.swift in Sources */,
+				B987F8EB25500757003FBB22 /* TrueDepthSessionViewController.swift in Sources */,
+				B90BCE2A2518E5940062E8B6 /* DGSettingsManager.swift in Sources */,
+				B9D52888258A424B0055A37A /* CMRotationMatrix+Codable.swift in Sources */,
+				B928639624AE16360026DC8C /* AppDelegate.swift in Sources */,
+				B928639824AE16360026DC8C /* SceneDelegate.swift in Sources */,
+				3101EC992714D4AA002E5256 /* UIImageHelper.mm in Sources */,
+				B9A895ED25665DE3000C5C26 /* IDLPLYAsset.mm in Sources */,
+				B917A46F256BECBE004123EE /* simd+extensions.swift in Sources */,
+				B9A895E425665DBD000C5C26 /* IDLObject.m in Sources */,
+				B90BA32B24F6A29400D43F47 /* IDLPollingRequest.swift in Sources */,
+				B95B08DF24F9508300CAF10B /* DGSketchfabModel.swift in Sources */,
+				B9A8959A25641C95000C5C26 /* ARMeshGeometry+Extension.swift in Sources */,
+				B95B08E124FFAE3500CAF10B /* IDLDevice.swift in Sources */,
+				B90BCE2025133DB80062E8B6 /* DGSettingsViewController.swift in Sources */,
+				B9A895A62565510F000C5C26 /* ARMeshGeometry+Extension.m in Sources */,
+				B9A8967E2567035F000C5C26 /* Colorizer.swift in Sources */,
+				B934389F24EE699A007092C2 /* IDLImageConverter.swift in Sources */,
+				B92863C624AE1A1B0026DC8C /* RoundedButton.swift in Sources */,
+				B9A89581256279C9000C5C26 /* plycpp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92863A424AE16380026DC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A895EE25665DE3000C5C26 /* IDLPLYAsset.mm in Sources */,
+				B92D976524C1E8E2007AE546 /* CVPixelBuffer+Extension.swift in Sources */,
+				B9A895A02565074E000C5C26 /* SCNGeometry+Extension.swift in Sources */,
+				B9A5D89124C1791000EF6927 /* IDLARPreProcessing.swift in Sources */,
+				B98EB5EE24B5AB6600086293 /* AvatariOSClient.xcdatamodeld in Sources */,
+				B917A475256BEF58004123EE /* ARCamera+Codable.swift in Sources */,
+				B9A8959B25641C95000C5C26 /* ARMeshGeometry+Extension.swift in Sources */,
+				B9A895A72565510F000C5C26 /* ARMeshGeometry+Extension.m in Sources */,
+				B9A895E525665DBD000C5C26 /* IDLObject.m in Sources */,
+				B9A89582256279C9000C5C26 /* plycpp.cpp in Sources */,
+				B917A470256BECBF004123EE /* simd+extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92863AF24AE16380026DC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92D976624C1E8E2007AE546 /* CVPixelBuffer+Extension.swift in Sources */,
+				B9A5D89224C1791000EF6927 /* IDLARPreProcessing.swift in Sources */,
+				B98EB5EF24B5AB6600086293 /* AvatariOSClient.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B92863AA24AE16380026DC8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B928639124AE16360026DC8C /* AvatariOSClient */;
+			targetProxy = B92863A924AE16380026DC8C /* PBXContainerItemProxy */;
+		};
+		B92863B524AE16380026DC8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B928639124AE16360026DC8C /* AvatariOSClient */;
+			targetProxy = B92863B424AE16380026DC8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B928639B24AE16360026DC8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B928639C24AE16360026DC8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B92863A024AE16380026DC8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B92863A124AE16380026DC8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B92863BA24AE16380026DC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B92863BB24AE16380026DC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B92863BD24AE16380026DC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1BCCBE108F96349A7B6481 /* Pods-AvatariOSClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = NXBFCWK8Z4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AvatariOSClient/AvatariOSClient.pch;
+				INFOPLIST_FILE = AvatariOSClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indatalabs.AvatarIOSClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AvatariOSClient/AvatariOSClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B92863BE24AE16380026DC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F046E9C3F50A7A6DBB313C /* Pods-AvatariOSClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = NXBFCWK8Z4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AvatariOSClient/AvatariOSClient.pch;
+				INFOPLIST_FILE = AvatariOSClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indatalabs.AvatarIOSClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AvatariOSClient/AvatariOSClient-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B92863C024AE16380026DC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLX7LAQTL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DepthGrabber/ThirdParty/OpenCV",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AvatariOSClient/AvatariOSClient.pch;
+				INFOPLIST_FILE = DepthGrabberTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.avk.DepthGrabberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvatariOSClient.app/AvatariOSClient";
+			};
+			name = Debug;
+		};
+		B92863C124AE16380026DC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLX7LAQTL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DepthGrabber/ThirdParty/OpenCV",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AvatariOSClient/AvatariOSClient.pch;
+				INFOPLIST_FILE = DepthGrabberTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.avk.DepthGrabberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvatariOSClient.app/AvatariOSClient";
+			};
+			name = Release;
+		};
+		B92863C324AE16380026DC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLX7LAQTL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DepthGrabber/ThirdParty/OpenCV",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AvatariOSClient/AvatariOSClient.pch;
+				INFOPLIST_FILE = DepthGrabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.avk.DepthGrabberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DepthGrabber;
+			};
+			name = Debug;
+		};
+		B92863C424AE16380026DC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLX7LAQTL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DepthGrabber/ThirdParty/OpenCV",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AvatariOSClient/AvatariOSClient.pch;
+				INFOPLIST_FILE = DepthGrabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.avk.DepthGrabberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DepthGrabber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B928638D24AE16360026DC8C /* Build configuration list for PBXProject "AvatariOSClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92863BA24AE16380026DC8C /* Debug */,
+				B92863BB24AE16380026DC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B92863BC24AE16380026DC8C /* Build configuration list for PBXNativeTarget "AvatariOSClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92863BD24AE16380026DC8C /* Debug */,
+				B92863BE24AE16380026DC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B92863BF24AE16380026DC8C /* Build configuration list for PBXNativeTarget "AvatariOSClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92863C024AE16380026DC8C /* Debug */,
+				B92863C124AE16380026DC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B92863C224AE16380026DC8C /* Build configuration list for PBXNativeTarget "AvatariOSClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92863C324AE16380026DC8C /* Debug */,
+				B92863C424AE16380026DC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B98EB5EB24B5AB6600086293 /* AvatariOSClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B98EB5EC24B5AB6600086293 /* DepthGrabber.xcdatamodel */,
+			);
+			currentVersion = B98EB5EC24B5AB6600086293 /* DepthGrabber.xcdatamodel */;
+			path = AvatariOSClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B928638A24AE16360026DC8C /* Project object */;
+}

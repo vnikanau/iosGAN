@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Session" representedClassName="Session" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="local" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="modelDescription" optional="YES" attributeType="String"/>
+        <attribute name="modelDetailsUrl" optional="YES" attributeType="URI"/>
+        <attribute name="modelId" optional="YES" attributeType="String"/>
+        <attribute name="modelName" optional="YES" attributeType="String"/>
+        <attribute name="modelUrl" optional="YES" attributeType="URI"/>
+        <attribute name="path" optional="YES" attributeType="URI"/>
+        <attribute name="processed" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="uploaded" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Session" positionX="-63" positionY="-18" width="128" height="193"/>
+    </elements>
+</model>

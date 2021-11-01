@@ -1,0 +1,23 @@
+//
+//  DepthGrabber.pch
+//  DepthGrabber
+//
+//  Created by Andrei Kazialetski on 7/17/20.
+//
+
+#ifndef DepthGrabber_pch
+#define DepthGrabber_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#ifdef __cplusplus
+//#import <opencv2/opencv.hpp>
+//#endif
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#endif /* DepthGrabber_pch */
